@@ -15,12 +15,12 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
     var total=0;
-    for(var i in arr) { 
-        total += arr[i];
-    }
+    for (var i = 0; i<arrayOfNumbers.length; i++) {
+        total += arrayOfNumbers[i]
+} 
     return total;
 }
-// assignmment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 /**
  * Challenge - 2
  * 
@@ -32,14 +32,15 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
 	var count = 0;
-	for(let i = 0 ; i < array.length; i++) {
+	for(let i = 0 ; i < arrayOfNumbers.length; i++) {
 		if (arrayOfNumbers[i] % 2 === 0){
 			count++;
 		}
 	}
 	return count;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
+/**
 /**
  * Challenge - 3
  * 
